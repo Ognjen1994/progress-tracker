@@ -1,0 +1,60 @@
+@import '../../scss/colors';
+
+.accordion-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  &--expanded {
+    flex-direction: column;
+  }
+
+  &__header {
+    display: flex;
+    width: 100%;
+    height: 68px;
+    justify-content: space-between;
+    cursor: pointer;
+
+    &__left-section {
+      display: flex;
+      align-items: center;
+
+      & > img {
+        margin-left: 24px;
+        margin-right: 16px;
+      }
+
+      &__name {
+        font-size: 18px;
+        &--completed {
+          color: $green-color;
+        }
+      }
+    }
+
+    &__right-section {
+      display: flex;
+      align-items: center;
+
+      & > p {
+        font-size: 16px;
+        color: #999;
+      }
+
+      & > img {
+        margin-right: 24px;
+        margin-left: 16px;
+      }
+    }
+  }
+
+  &__content {
+    margin: 16px 0 0 32px;
+  }
+
+  & img {
+    width: 16px;
+    height: 16px;
+  }
+}

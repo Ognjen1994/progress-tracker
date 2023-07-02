@@ -1,0 +1,16 @@
+@import '../scss/breakpoints';
+
+.progress-tracker {
+  &__title {
+    text-align: center;
+    margin: 40px 0;
+  }
+
+  &__widget {
+    width: calc(100vw - 60px);
+
+    @include media-query-desk-only {
+      width: 850px;
+    }
+  }
+}

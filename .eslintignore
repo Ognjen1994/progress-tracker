@@ -1,0 +1,12 @@
+node_modules/
+
+# Ignore artifacts:
+
+coverage/
+dist/
+public/
+**mocks**/
+
+jest.config.js
+postcss.config.js
+\*.d.ts

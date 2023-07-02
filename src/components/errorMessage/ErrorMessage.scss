@@ -1,0 +1,19 @@
+@import '../../scss/colors';
+
+.error-message {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  & > button {
+    width: 100px;
+    margin-top: 10px;
+    background: $green-color;
+    color: #fff;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+  }
+}

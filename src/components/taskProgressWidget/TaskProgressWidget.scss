@@ -1,0 +1,28 @@
+@import '../../scss/colors';
+
+.task-progress-widget {
+  margin: 0 auto;
+  border-radius: 8px;
+  border: 1px solid $border-color;
+
+  &__header {
+    width: calc(100% - 2 * 32px);
+    margin: 58px auto 32px auto;
+
+    &__title {
+      display: block;
+      margin-bottom: 18px;
+      font-size: 22px;
+      font-weight: 700;
+    }
+  }
+
+  &__content {
+    margin-bottom: 16px;
+
+    &__accordion {
+      width: calc(100% - 2 * 16px);
+      margin: 0 auto;
+    }
+  }
+}

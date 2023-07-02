@@ -1,0 +1,24 @@
+@import '../../scss/colors';
+
+.progress-bar {
+  width: 100%;
+  height: 20px;
+  border-radius: 24px;
+  background: $green-light-color;
+
+  &__fill {
+    height: 100%;
+    background-color: $green-color;
+    transition: width 0.5s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 10px;
+  }
+
+  &__percentage {
+    margin-right: 16px;
+    color: #fff;
+    font-size: 16px;
+  }
+}

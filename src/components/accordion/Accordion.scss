@@ -1,0 +1,18 @@
+@import '../../scss/colors';
+
+$borderVal: 1px solid $border-light-color;
+
+.accordion {
+  border-radius: 8px;
+  border: $borderVal;
+
+  &__item {
+    &--border {
+      border-bottom: $borderVal;
+    }
+
+    &--border:last-child {
+      border-bottom: none;
+    }
+  }
+}

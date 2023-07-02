@@ -88,3 +88,7 @@ Progress Tracker is built using the following technologies:
    <li>Jest with React Testing Library: Testing framework for unit testing components and simulating user interactions.</li>
    <li>ESLint and Prettier: Linter and code formatter for identifying errors, enforcing coding style guidelines, and ensuring consistent and readable code styling.</li>
 </ul>
+
+**Note: Not all components have unit tests implemented. This is primarily for demonstration purposes and to show how unit tests can be written for React components.**
+
+**To see the app in action, visit the following [URL](https://ognjen1994.github.io/progress-tracker/).**
